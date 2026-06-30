@@ -1,0 +1,19 @@
+# Ignorar arquivos de lock de pacotes
+package-lock.json
+
+# Ignorar todo o conteúdo dentro das pastas específicas, mas manter a pasta
+.vscode/*
+debug/*
+input/*
+node_modules/*
+output/*
+temp/*
+var/*
+
+# Exceção: não ignorar o arquivo .gitkeep dentro dessas pastas
+!debug/.gitkeep
+!input/.gitkeep
+!node_modules/.gitkeep
+!output/.gitkeep
+!temp/.gitkeep
+!var/.gitkeep
